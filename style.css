@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* =======bat project css start========*/
+.main {
+    background: #ecaa53;
+    width: 25rem;
+    height: 20rem;
+    margin: 14rem auto;
+    position: relative;
+    overflow: hidden;
+}
+/* ====Wings section design Start===*/
+.main .wing1 {
+    height: 100%;
+    width: 6rem;
+    background: #191919;
+    border-radius: 3rem 3rem 0 0;
+    position: absolute;
+    top: 4.3rem;
+    right: -2.8rem;
+    transform: rotate(-50deg);
+}
+.main .wing2 {
+    height: 100%;
+    width: 5.5rem;
+    background: #191919;
+    border-radius: 3.7rem 2.3rem 0 0;
+    position: absolute;
+    top: 155px;
+    right: 120px;
+}
+.main .wing3 {
+    height: 100%;
+    width: 5.5rem;
+    background: #191919;
+    border-radius: 2.3rem 57px 0 0;
+    position: absolute;
+    top: 155px;
+    left: 120px;
+}
+.main .wing4{
+    height: 100%;
+    width: 6rem;
+    background: #191919;
+    border-radius: 3rem 3rem 0 0;
+    position: absolute;
+    top: 70px;
+    left: -42px;
+    transform: rotate(50deg);
+}
+/* ====Wings section design End====*/
+
+/*====Head Part CSS Start===*/
+.main .head1{
+    width: 100%;
+    height: 5rem;
+    background: #191919;
+    position: absolute;
+    top: 32px;
+}
+.main .head2{
+    width: 70px;
+    height: 90px;
+    background: #191919;
+    border-radius: 0 0 10px 10px;
+    margin: auto;
+    top: 42px;
+    position: relative;
+}
+.main .head2 .neck{
+    height: 15px;
+    width: 15px;
+    background: #ecaa53;
+    position: absolute;
+    bottom: 0;
+    left: 28px;
+}
+.main .head2 .ear1{
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background: #ecaa53;
+    position: absolute;
+    top: 70px;
+    left: 22px;
+}
+.main .head2 .ear2{
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background: #ecaa53;
+    position: absolute;
+    top: 70px;
+    right: 22px;
+}
+/*====Head Part CSS End===*/
+
+.main .up_cover{
+    width: 100%;
+    height: 50px;
+    background: #191919;
+    position: absolute;
+    top: 0;
+}
+.main .left_cover{
+    width: 80px;
+    height: 100%;
+    background: #191919;
+    position: absolute;
+    left: 0;
+}
+.main .right_cover{
+    width: 80px;
+    height: 100%;
+    background: #191919;
+    position: absolute;
+    right: 0;
+}
+.main .down_cover{
+    width: 100%;
+    height: 130px;
+    background: #191919;
+    position: absolute;
+    bottom: 0;
+}
+/* =======bat project css start========*/
